@@ -226,6 +226,7 @@
     
     AppDelegate *app = (AppDelegate*)[[UIApplication sharedApplication] delegate];
     [app.drawerController toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+    NSLog(@"this is menu");
 }
 
 - (IBAction)btnSearch:(id)sender {
