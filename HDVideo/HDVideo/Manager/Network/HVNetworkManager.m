@@ -151,7 +151,6 @@
 
 - (NSURLSessionDataTask*)dataTaskWithRequest:(NSURLRequest *)request completion:(void (^) (HVResponseObject *responseObject))completion {
     return [self dataTaskWithRequest:request completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
-        //        NSLog(@"response: %@ responseObject: %@, error: %@", response, responseObject, error);
         HVResponseObject* responseObj = [HVResponseObject responseObjectWithResponse:(NSHTTPURLResponse*)response responseObject:responseObject error:error];
         
         

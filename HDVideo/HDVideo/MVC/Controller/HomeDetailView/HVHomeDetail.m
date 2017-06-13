@@ -40,11 +40,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self getDataDetail];
+    
+    
+    UITapGestureRecognizer * tapGesture = [[UITapGestureRecognizer alloc]
+                                           initWithTarget:self
+                                           action:@selector(hideKeyBoard)];
+    
+    [self.view addGestureRecognizer:tapGesture];
+}
+
+- (void) hideKeyBoard{
+    [self.lblIntroduce resignFirstResponder];
 }
 
 - (void) viewDidAppear:(BOOL)animated{
     self.myScrollView.contentSize = CGSizeMake(_myScrollView.frame.size.width, _myScrollView.frame.size.height + 200);
 }
+
 
 
 - (void) getDataDetail{

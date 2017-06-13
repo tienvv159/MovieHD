@@ -112,7 +112,7 @@
 		84F3B4661EB04AA600B079E5 /* HVNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVNetworkManager.h; sourceTree = "<group>"; };
 		84F3B4671EB04AA600B079E5 /* HVNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVNetworkManager.m; sourceTree = "<group>"; };
 		84F3B4691EB04ACC00B079E5 /* HVResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVResponseObject.h; sourceTree = "<group>"; };
-		84F3B46A1EB04ACC00B079E5 /* HVResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HVResponseObject.m; path = ../../Manager/Network/HVResponseObject.m; sourceTree = "<group>"; };
+		84F3B46A1EB04ACC00B079E5 /* HVResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVResponseObject.m; sourceTree = "<group>"; };
 		84F3B46F1EB04C8300B079E5 /* HVConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVConfig.h; sourceTree = "<group>"; };
 		84F3B4701EB04C9000B079E5 /* HVString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVString.h; sourceTree = "<group>"; };
 		84F3B4711EB0529700B079E5 /* HVUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVUtil.h; sourceTree = "<group>"; };
@@ -360,7 +360,6 @@
 		84F3B45A1EB049C400B079E5 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				84F3B46A1EB04ACC00B079E5 /* HVResponseObject.m */,
 				84F3B45B1EB04A0700B079E5 /* HVBaseVC.h */,
 				84F3B45C1EB04A0700B079E5 /* HVBaseVC.m */,
 			);
@@ -405,6 +404,7 @@
 				84F3B4661EB04AA600B079E5 /* HVNetworkManager.h */,
 				84F3B4671EB04AA600B079E5 /* HVNetworkManager.m */,
 				84F3B4691EB04ACC00B079E5 /* HVResponseObject.h */,
+				84F3B46A1EB04ACC00B079E5 /* HVResponseObject.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
